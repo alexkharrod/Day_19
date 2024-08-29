@@ -30,7 +30,7 @@ while race_is_on:
     for turtle in the_turtles:
         distance = random.randint(1, 10)
         turtle.forward(distance)
-        if turtle.xcor() >= 210:
+        if turtle.xcor() >= 230:
             winner = turtle.color()[0]
             race_is_on = False
             break
